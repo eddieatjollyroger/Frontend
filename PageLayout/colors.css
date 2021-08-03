@@ -1,0 +1,129 @@
+/* 
+.margin {
+    background-color: cyan;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.border {
+    background-color: darkblue;
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    padding-top: 15px;
+    padding-top: 30px;
+}
+
+.padding {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: end;
+}
+ */
+ .nav {    
+    height: 40px;
+    margin: auto;
+    padding-top: 15px;
+    padding-top: 30px;
+    position: sticky;
+}
+.navlist ul {
+    width: 1300px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  }
+  
+ .navlist li {
+    float: left;
+    position: sticky;
+  }
+  
+ .navlist li a {
+    width: 400px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    position: sticky;
+  }
+  
+ .navlist li a:hover {
+    background-color: #111;
+    position: sticky;
+  }
+
+header {
+    height: 200px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+
+}
+main {
+    display: flex;
+}
+
+#main-content {
+    
+    height: 2000px;
+    width: 1300px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: mediumaquamarine;
+}
+
+#sidebar {
+    width: 100px;
+    position: sticky;
+    top: 40px;
+    
+}
+
+.sidelist {
+    
+    display: flex;
+    
+    
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+
+  .sidelist li {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    
+  }
+  
+ .sidelist li a:hover {
+    background-color: #111;
+  }
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #333;
+}
